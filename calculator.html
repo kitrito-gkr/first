@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="JAVA Script Claculator">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="Gaurav Kumar Rawat" content="calculator code">
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+</head>
+<body>
+<div class="container">
+<div id="point"></div>
+<div id="point1"></div>
+<div class="top">
+<input type="text"  id="input" dir="rtl" placeholder="0">
+<button id="reset" class="button" onclick="reset()">C</button>
+</div>
+<br>
+<div class="bottom">
+<button id="seven" class="button" onclick="setnumber('7')">7</button>
+<button id="eight" class="button" onclick="setnumber('8')">8</button>
+<button id="nine" class="button" onclick="setnumber('9')">9</button>
+<button id="op" class="button" onclick="setop('+')">+</button>
+<br>
+<button id="four" class="button" onclick="setnumber('4')">4</button>
+<button id="five" class="button" onclick="setnumber('5')">5</button>
+<button id="six" class="button" onclick="setnumber('6')">6</button>
+<button id="op" class="button" onclick="setop('-')">−</button>
+<br>
+<button id="one" class="button" onclick="setnumber('1')">1</button>
+<button id="two" class="button" onclick="setnumber('2')">2</button>
+<button id="three" class="button" onclick="setnumber('3')">3</button>
+<button id="op" class="button" onclick="setop('/')">÷</button>
+<br>
+<button id="deci" class="button" onclick="setnumber('.')">.</button>
+<button id="zero" class="button" onclick="setnumber('0')">0</button>
+<button id="equal" class="button" onclick="answer()">=</button>
+<button id="op" class="button" onclick="setop('*')">×</button>
+</div>
+</div>
+<script src="js/calculator.js"></script>
+</body>
+</html>

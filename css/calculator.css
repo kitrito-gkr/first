@@ -1,0 +1,169 @@
+/* By Gaurav Kumar Rawat*/
+* {
+	margin: 0px;
+	padding: 1px;
+	box-sizing: border-box;
+	font: bold 14px "Lucida Console", Monaco, monospace;
+}
+
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle,#ededed 20%,#505050);
+	background-size: cover;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+#point{
+	margin-left: 10px;
+	margin-bottom: 2px;
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	border-radius: 6px;
+	display: inline-block;
+	-webkit-animation:bgChange 0.3s infinite linear;
+	z-index: -12;
+	box-shadow: 1px 1px #008bcb;
+}
+#point1{
+	margin-left: -3px;
+	margin-bottom: 2px;
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	border-radius: 6px;
+	display: inline-block;
+	-webkit-animation:bgChange1 0.2s infinite linear;
+	box-shadow: 1px 1px #008bcb;
+}
+.container{
+	padding-top: 14px;
+	padding-left: 10px;
+	background: #52aaff;
+	background: linear-gradient(#52aaff,#6cb7ff,#75c5e8);
+	border-radius: 3px;
+	box-shadow: 0px 4px #008bcb, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	border: 1px solid transparent;
+	border-radius: 5px;
+	z-index: 15;
+	width: 400px;
+	height: 290px;
+	margin: auto;
+	margin-top: 140px;
+}
+input[type=text] {
+	margin-left: 8px;
+	width: 262px;
+	height: 40px;
+	font-size: 20px;	
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: -6px;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 6px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #84e184;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #2aad2a;
+  margin-left: 10px;
+  margin-bottom: 14px;
+
+}
+
+.button:hover {background-color:#5bd75b;
+				box-shadow: 0 5px #1c761c;
+
+}
+
+.button:active {
+  box-shadow: 0 0px #666;
+  transform: translateY(4px);
+}
+
+#reset{
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	margin-bottom: -6px;
+}
+
+#reset:hover {background: #f68991;
+	box-shadow: 0px 4px #d3545d;
+
+}
+
+#reset:active {
+  box-shadow: 0px 0px #d3545d;
+  transform: translateY(4px);
+}
+
+#op{
+	background: #b0a1f8;
+	box-shadow: 0px 4px #8e7ddd;
+	margin-right: 10px;
+	margin-bottom: -6px;
+}
+
+#op:hover {background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+
+}
+
+#op:active {
+  box-shadow: 0px 0px #d3545d;
+  transform: translateY(4px);
+}
+
+#equal,#deci{
+	background: #ffa267;
+	box-shadow: 0px 4px #ff741a;
+}
+
+#equal:hover,#deci:hover {background: #ff934d;
+	box-shadow: 0px 4px #e65b00;
+
+}
+
+#equal:active, #deci:active {
+  box-shadow: 0px 0px #d3545d;
+  transform: translateY(4px);
+}
+
+
+@-webkit-keyframes bgChange {
+    0% {
+       background:#fff; 
+    }
+    
+    100% {
+        background:red;
+    }
+}
+
+@-webkit-keyframes bgChange1 {
+    0% {
+       background:#84ff05; 
+    }
+    50% {
+    	background:#ff0000; 
+    }
+    100% {
+        background:#ffff00;
+    }
+}
