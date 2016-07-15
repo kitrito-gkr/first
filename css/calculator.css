@@ -41,7 +41,7 @@ html {
 	box-shadow: 1px 1px #008bcb;
 }
 .container{
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-left: 10px;
 	background: #52aaff;
 	background: linear-gradient(#52aaff,#6cb7ff,#75c5e8);
@@ -51,7 +51,7 @@ html {
 	border-radius: 5px;
 	z-index: 15;
 	width: 400px;
-	height: 294px;
+	height: 299px;
 	margin: auto;
 	margin-top: 140px;
 }
