@@ -124,7 +124,10 @@
 
 	function deleteall()
 	{
+		if(confirm("Do You Want to Wipe All Data!!!")==true)
+		{
 		localStorage.clear();
 		localStorage.setItem('Todo','');
 		localStorage.setItem('Index','');
+		}
 	}
