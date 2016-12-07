@@ -15,7 +15,7 @@
 
 	}
 
-	function deletechecked()
+	function deletechecked()	
 	{
 		var Index = localStorage.getItem('Index');
 		var Todolist = localStorage.getItem('Todo');
