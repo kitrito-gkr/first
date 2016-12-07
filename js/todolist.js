@@ -124,7 +124,7 @@
 
 	function deleteall()
 	{
-		if(confirm("Do You Want to Wipe All Data!!!")==true)
+		if(confirm("Do You Really Want to Wipe All Data!!!")==true)
 		{
 		localStorage.clear();
 		localStorage.setItem('Todo','');
