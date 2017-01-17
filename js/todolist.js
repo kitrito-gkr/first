@@ -60,8 +60,11 @@
 		x.id = 'todolist';
 		document.body.appendChild(x); 
 		Todolist=localStorage.getItem('Todo');
-		var list = Todolist.split('`');
-        for (var i = list.length - 1; i >= 0; i--) {
+		var list;
+		if(!Todolist)
+			Todolist='';
+		 list= Todolist.split('`');
+       		 for (var i = list.length - 1; i >= 0; i--) {
         	if(list[i] != ''){
         	var c = document.createElement("button");
           	c.id =i;
