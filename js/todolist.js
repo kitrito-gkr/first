@@ -3,7 +3,7 @@
 	{
 		var Index = localStorage.getItem('Index');
 		var newindex=[];
-		if(Index!='')
+		if(Index!=''||Index==null)
 		newindex= Index.split('%');
 		newindex.pop();		
 		showlist();
