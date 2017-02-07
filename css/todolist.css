@@ -29,6 +29,7 @@ body{
     margin: 1px;
     border-color: #000;
     font-size: 15px;
+	border : none;
 }
 
 #submit{
