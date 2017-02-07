@@ -1,10 +1,10 @@
 
 	window.onload = function()
 	{	
-		
+		var Todo = localStorage.getItem('Todo');
 		var Index = localStorage.getItem('Index');
 		var newindex=[];
-		if(Index)
+		if(Index&&Todo)
 		{
 		newindex= Index.split('%');
 		newindex.pop();		
