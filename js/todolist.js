@@ -1,9 +1,11 @@
 
 	window.onload = function()
-	{
+	{	
+		
 		var Index = localStorage.getItem('Index');
 		var newindex=[];
 		if(Index)
+		{
 		newindex= Index.split('%');
 		newindex.pop();		
 		showlist();
@@ -12,6 +14,12 @@
 				c.id = newindex[i].concat('c'); ;	
 				c.style.textDecoration = "line-through";												
 			}
+		}
+		else
+		{
+		localStorage.setItem('Todo','');
+		localStorage.setItem('Index','');
+		}
 
 	}
 
