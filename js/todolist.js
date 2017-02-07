@@ -14,12 +14,7 @@
 				c.id = newindex[i].concat('c'); ;	
 				c.style.textDecoration = "line-through";												
 			}
-		}
-		else
-		{
-		localStorage.setItem('Todo','`');
-		localStorage.setItem('Index','%');
-		}
+		}		
 
 	}
 
