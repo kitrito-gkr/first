@@ -11,7 +11,7 @@
 		showlist();
 		for (var i = 0; i<newindex.length; i++) {
 				var c = document.getElementById(newindex[i]);
-				c.id = newindex[i].concat('c'); ;	
+				c.id = newindex[i].concat('c');	
 				c.style.textDecoration = "line-through";												
 			}
 		}		
