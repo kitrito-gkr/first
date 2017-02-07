@@ -17,8 +17,8 @@
 		}
 		else
 		{
-		localStorage.setItem('Todo','');
-		localStorage.setItem('Index','');
+		localStorage.setItem('Todo','`');
+		localStorage.setItem('Index','%');
 		}
 
 	}
